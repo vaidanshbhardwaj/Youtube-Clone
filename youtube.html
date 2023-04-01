@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Youtube clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+      <img class="youtube-logo" src="icons/youtube-logo.svg">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar " type="text" placeholder="Search">
+      <button class="search-button"> <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button"><img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Voice Search</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+
+      <div class="youtube-apps-icon-container">
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="tooltip">Youtube Apps</div>
+      </div>
+
+      <div class="notifications-icon-container"><img class="notifications-icon" src="icons/notifications.svg">
+        <div class="tooltip">Notifications</div>
+        <div class="notifications-count">7</div>
+      </div>
+      <div class="user-icon-container">
+        <img class="user-icon" src="icons/account.png">
+        <div class="tooltip">Your Channel</div>
+      </div>
+    </div>
+  </header>
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/youtube-music.svg">
+      <div>Youtube-Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg">
+      <div>Library</div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="video-grid">
+
+      <div class="video-preview">
+
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+          <div class="video-time">3:26</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-1.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="link" href="https://www.youtube.com/watch?v=5GhhVHpPR_M">Kendrick Lamar - Count Me Out</a>
+            </p>
+            <p class="channel">
+              Kendrick Lamar &#9834;
+            </p>
+            <p class="video-stats">
+              13M views &#8226; 3 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+          <div class="video-time">4:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-2.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="link" href="https://www.youtube.com/watch?v=Lx8Nie3TJV0">Smoke And Mirrors</a>
+            </p>
+            <p class="channel">
+              ImagineDragons &#9834;
+            </p>
+            <p class="video-stats">
+              3.1M views &#8226; 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+          <div class="video-time">5:57</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-3.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="link" href="https://www.youtube.com/watch?v=vsARlcGW0jE">The Weeknd - Escape From LA (Audio)</a>
+            </p>
+            <p class="channel">
+              The Weeknd &#9834;
+            </p>
+            <p class="video-stats">
+              23M views &#8226; 3 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+          <div class="video-time">5:15</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-4.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="link" href="https://www.youtube.com/watch?v=mFI4LFbOeDc">Jay Rock - OSOM ft. J. Cole</a>
+
+            </p>
+            <p class="channel">
+              JayRock &#9834;
+            </p>
+            <p class="video-stats">
+              42M views &#8226; 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+          <div class="video-time">3:37</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-5.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="link" href="https://www.youtube.com/watch?v=K3Qzzggn--s">Joji - SLOW DANCING IN THE DARK</a>
+            </p>
+            <p class="channel">
+              88rising
+            </p>
+            <p class="video-stats">
+              366M views &#8226; 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+          <div class="video-time">2:34</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-6.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="link" href="https://www.youtube.com/watch?v=w3333Fo6ufY">J. Cole - a m a r i (Official Music
+                Video)</a>
+            </p>
+            <p class="channel">
+              J. Cole &#9834;
+            </p>
+            <p class="video-stats">
+              25M views &#8226; 1year ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>
